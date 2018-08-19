@@ -1,6 +1,6 @@
 # Quick Hack (Snowplow data to train VW)
 
-This is a very quick POS during KDD 2018 to try the contextual bandits presented [here][contextual-bandit].
+This is a very quick PoC during KDD 2018 to try the contextual bandits presented [here][contextual-bandit].
 
 The idea is that I am reading the enriched event stream of [snwoplow][snowplow] Near Real-Time pipeline, which contain a new iglu context (as of yet uncommitted) that contains the vw_label data (this is a quick hack).
 
