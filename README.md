@@ -10,7 +10,8 @@ which then in turn spits out model data.
 Here is an example training a [bandit][bandit]. The output can then be used to present one of the alternatives to show to the user, like so:
 
 ```bash
-
+pip install snowplow_analytics_sdk==0.2.3
+cat sample-snowplow-data/part-00057-09103e46-8f45-49ba-a1bc-26a869e69633-c000.csv | python fwozen_wabbit.py user_ipaddress v_etl | docker run -i vowpal-wabbit:master --cb 4 --cb_type ips
 ```
 
 [snowplow]: https://github.com/snowplow/snowplow/
